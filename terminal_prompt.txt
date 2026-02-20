@@ -1,0 +1,195 @@
+python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-18/MARCELLA1118-3YK9V1L15N/raw_data/v6 --files 1-1-MARCELLA1118_1763477290.avro 1-1-MARCELLA1118_1763477367.avro 1-1-MARCELLA1118_1763479182.avro 1-1-MARCELLA1118_1763480988.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/MARCELLA1118 --tz UTC --interactive --tz America/New_York --export-csv
+
+python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-18/MARCELLA1118-3YK9V1L15N/raw_data/v6 --files 1-1-MARCELLA1118_1763477290.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/test --tz UTC --interactive --tz America/New_York --export-csv
+
+python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-17/JINGFEI1117-3YK9V1L15N/raw_data/v6 --files 1-1-JINGFEI1117_1763387686.avro 1-1-JINGFEI1117_1763388158.avro 1-1-JINGFEI1117_1763389961.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/JINGFEI1117 --tz UTC --interactive --tz America/New_York --export-csv
+
+python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-14/JOE1114-3YK9V1L15N/raw_data/v6 --files 1-1-JOE1114_1763150789.avro 1-1-JOE1114_1763150800.avro 1-1-JOE1114_1763150885.avro 1-1-JOE1114_1763150951.avro 1-1-JOE1114_1763151021.avro 1-1-JOE1114_1763151092.avro 1-1-JOE1114_1763151163.avro 1-1-JOE1114_1763151233.avro 1-1-JOE1114_1763151258.avro 1-1-JOE1114_1763151334.avro 1-1-JOE1114_1763151404.avro 1-1-JOE1114_1763151929.avro 1-1-JOE1114_1763151961.avro 1-1-JOE1114_1763151974.avro 1-1-JOE1114_1763153775.avro 1-1-JOE1114_1763154898.avro 1-1-JOE1114_1763154972.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/JOE1114 --tz UTC --interactive --tz America/New_York --export-csv
+
+python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-13/PETER1113-3YK9V1L15N/raw_data/v6 --files 1-1-PETER1113_1763067672.avro 1-1-PETER1113_1763069017.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/PETER1113 --tz UTC --interactive --tz America/New_York --export-csv
+
+python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-20/YANNING1120-3YK9V1L15N/raw_data/v6 --files 1-1-YANNING1120_1763666984.avro 1-1-YANNING1120_1763667388.avro 1-1-YANNING1120_1763669188.avro 1-1-YANNING1120_1763670988.avro 1-1-YANNING1120_1763671308.avro 1-1-YANNING1120_1763671374.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/YANNING1120 --tz UTC --interactive --tz America/New_York --export-csv
+
+python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-20/YIXING1120-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-YIXING1120_1763658528.avro \
+    1-1-YIXING1120_1763658549.avro \
+    1-1-YIXING1120_1763660349.avro \
+    1-1-YIXING1120_1763662163.avro \
+    1-1-YIXING1120_1763662550.avro \
+    1-1-YIXING1120_1763662620.avro \
+    1-1-YIXING1120_1763662691.avro \
+    1-1-YIXING1120_1763662762.avro \
+    1-1-YIXING1120_1763662832.avro \
+    1-1-YIXING1120_1763662903.avro \
+    1-1-YIXING1120_1763662973.avro \
+    1-1-YIXING1120_1763663044.avro \
+    1-1-YIXING1120_1763663115.avro \
+    1-1-YIXING1120_1763663186.avro \
+    1-1-YIXING1120_1763663257.avro \
+    1-1-YIXING1120_1763663327.avro \
+    1-1-YIXING1120_1763663398.avro \
+    1-1-YIXING1120_1763663469.avro \
+    1-1-YIXING1120_1763663539.avro \
+    1-1-YIXING1120_1763663610.avro \
+    1-1-YIXING1120_1763663681.avro \
+    1-1-YIXING1120_1763663752.avro \
+    1-1-YIXING1120_1763663823.avro \
+    1-1-YIXING1120_1763663893.avro \
+    1-1-YIXING1120_1763663964.avro \
+    1-1-YIXING1120_1763664034.avro \
+    1-1-YIXING1120_1763664105.avro \
+    1-1-YIXING1120_1763664176.avro \
+    1-1-YIXING1120_1763664246.avro \
+    1-1-YIXING1120_1763664317.avro \
+    1-1-YIXING1120_1763664388.avro \
+    1-1-YIXING1120_1763664459.avro \
+    1-1-YIXING1120_1763664529.avro \
+    1-1-YIXING1120_1763664600.avro \
+    1-1-YIXING1120_1763664671.avro \
+    1-1-YIXING1120_1763664742.avro \
+    1-1-YIXING1120_1763664812.avro \
+    1-1-YIXING1120_1763664883.avro \
+    1-1-YIXING1120_1763664954.avro \
+    1-1-YIXING1120_1763665024.avro \
+    1-1-YIXING1120_1763665095.avro \
+    1-1-YIXING1120_1763665166.avro \
+    1-1-YIXING1120_1763665237.avro \
+    1-1-YIXING1120_1763665308.avro \
+    1-1-YIXING1120_1763665379.avro \
+    1-1-YIXING1120_1763665450.avro \
+    1-1-YIXING1120_1763665520.avro \
+    1-1-YIXING1120_1763665591.avro \
+    1-1-YIXING1120_1763665661.avro \
+    1-1-YIXING1120_1763665732.avro \
+    1-1-YIXING1120_1763665804.avro \
+    1-1-YIXING1120_1763665874.avro \
+    1-1-YIXING1120_1763665945.avro \
+    1-1-YIXING1120_1763666015.avro \
+    1-1-YIXING1120_1763666086.avro \
+    1-1-YIXING1120_1763666157.avro \
+    1-1-YIXING1120_1763666228.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/YIXING1120 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-13/GENYANG1113-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-GENYANG1113_1763065481.avro \
+    1-1-GENYANG1113_1763067289.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/GENYANG1113 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+  python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-11/VINCENT1111-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-VINCENT1111_1762883513.avro \
+    1-1-VINCENT1111_1762883543.avro \
+    1-1-VINCENT1111_1762885034.avro \
+    1-1-VINCENT1111_1762885084.avro \
+    1-1-VINCENT1111_1762886889.avro \
+    1-1-VINCENT1111_1762887005.avro \
+    1-1-VINCENT1111_1762887015.avro \
+    1-1-VINCENT1111_1762887486.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/VINCENT1111 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+  python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-11/MARCEL1111-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-MARCEL1111_1762877300.avro \
+    1-1-MARCEL1111_1762877365.avro \
+    1-1-MARCEL1111_1762878039.avro \
+    1-1-MARCEL1111_1762878120.avro \
+    1-1-MARCEL1111_1762878234.avro \
+    1-1-MARCEL1111_1762878270.avro \
+    1-1-MARCEL1111_1762878290.avro \
+    1-1-MARCEL1111_1762880103.avro \
+    1-1-MARCEL1111_1762881716.avro \
+    1-1-MARCEL1111_1762881786.avro \
+    1-1-MARCEL1111_1762881856.avro \
+    1-1-MARCEL1111_1762881913.avro \
+    1-1-MARCEL1111_1762882018.avro \
+    1-1-MARCEL1111_1762882715.avro \
+    1-1-MARCEL1111_1762882736.avro \
+    1-1-MARCEL1111_1762883196.avro \
+    1-1-MARCEL1111_1762883283.avro \
+    1-1-MARCEL1111_1762883309.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/MARCEL1111 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-07/WAZEER1107-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-WAZEER1107_1762547001.avro \
+    1-1-WAZEER1107_1762547050.avro \
+    1-1-WAZEER1107_1762547066.avro \
+    1-1-WAZEER1107_1762547146.avro \
+    1-1-WAZEER1107_1762548963.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/WAZEER1107 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-07/YUTONG110725-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-YUTONG110725_1762535134.avro \
+    1-1-YUTONG110725_1762535174.avro \
+    1-1-YUTONG110725_1762535325.avro \
+    1-1-YUTONG110725_1762537136.avro \
+    1-1-YUTONG110725_1762538495.avro \
+    1-1-YUTONG110725_1762538566.avro \
+    1-1-YUTONG110725_1762538636.avro \
+    1-1-YUTONG110725_1762546883.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/YUTONG1107 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-13/SUZANNE1113-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-SUZANNE1113_1763059033.avro \
+    1-1-SUZANNE1113_1763059073.avro \
+    1-1-SUZANNE1113_1763059149.avro \
+    1-1-SUZANNE1113_1763059219.avro \
+    1-1-SUZANNE1113_1763059290.avro \
+    1-1-SUZANNE1113_1763059309.avro \
+    1-1-SUZANNE1113_1763061116.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/SUZANNE1113 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
+
+python extract_raw_avro_data.py \
+  --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1120/2025-11-10/MELO1110-3YK9V1L15N/raw_data/v6 \
+  --files \
+    1-1-MELO1110_1762798106.avro \
+    1-1-MELO1110_1762798157.avro \
+    1-1-MELO1110_1762798167.avro \
+    1-1-MELO1110_1762798197.avro \
+    1-1-MELO1110_1762800001.avro \
+    1-1-MELO1110_1762801811.avro \
+    1-1-MELO1110_1762803573.avro \
+  --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/MELO1110 \
+  --tz UTC \
+  --interactive \
+  --tz America/New_York \
+  --export-csv
