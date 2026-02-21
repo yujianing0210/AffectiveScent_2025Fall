@@ -1,0 +1,25 @@
+phase,condition,event_type,start_time,end_time,label
+warmup_baseline,none,drive,2025-11-20 12:12:25,2025-11-20 12:29:38,Warm-up driving + scent labeling
+warmup_baseline,none,crash,2025-11-20 12:13:28,2025-11-20 12:13:28,Crash
+warmup_baseline,none,crash,2025-11-20 12:20:33,2025-11-20 12:20:33,Crash
+calm_baseline,none,calm,2025-11-20 12:30:59,2025-11-20 12:32:59,Calm baseline
+drive_scent,scent_A,drive,2025-11-20 12:40:13,2025-11-20 12:43:00,Drive with Scent A
+drive_scent,scent_A,lost_control,2025-11-20 12:40:39,2025-11-20 12:40:39,Scent A intervention start
+drive_scent,scent_A,drive off way,2025-11-20 12:41:10,2025-11-20 12:41:10,Off road
+drive_scent,scent_A,scent_switch,2025-11-20 12:41:40,2025-11-20 12:41:40,Scent A switching
+drive_scent,scent_A,scent_switch,2025-11-20 12:42:20,2025-11-20 12:42:20,Scent A switching
+drive_scent,scent_A,scent_switch,2025-11-20 12:43:00,2025-11-20 12:43:00,Scent A switching
+drive_scent,scent_A,scent_switch,2025-11-20 12:43:40,2025-11-20 12:43:40,Scent A switching
+drive_scent,scent_A,scent_switch,2025-11-20 12:44:10,2025-11-20 12:44:10,Scent A switching
+calm_scent,scent_B,calm,2025-11-20 12:43:27,2025-11-20 12:46:32,Calm down with Scent B
+calm_scent,scent_B,scent_switch,2025-11-20 12:44:00,2025-11-20 12:44:00,Scent B switching
+calm_scent,scent_B,scent_switch,2025-11-20 12:44:40,2025-11-20 12:44:40,Scent B switching
+calm_scent,scent_B,scent_switch,2025-11-20 12:45:20,2025-11-20 12:45:20,Scent B switching
+calm_scent,scent_B,scent_switch,2025-11-20 12:46:00,2025-11-20 12:46:00,Scent B switching
+calm_scent,scent_B,scent_switch,2025-11-20 12:46:30,2025-11-20 12:46:30,Scent B switching
+rewatch_scent,scent_A,rewatch,2025-11-20 12:48:30,2025-11-20 12:51:14,Rewatch with Scent A
+drive_no_scent,no_scent,drive,2025-11-20 12:57:25,2025-11-20 12:59:20,Crash event (drive off way and stuck)
+drive_no_scent,no_scent,drive,2025-11-20 13:02:35,2025-11-20 13:05:05,Questionnaire (no scent)
+calm_no_scent,no_scent,calm,2025-11-20 12:59:23,2025-11-20 13:01:23,Calm down no scent
+calm_no_scent,no_scent,calm,2025-11-20 13:05:05,2025-11-20 13:07:05,Calm down no scent
+rewatch_no_scent,no_scent,rewatch,2025-11-20 13:07:30,2025-11-20 13:09:35,Rewatch no scent

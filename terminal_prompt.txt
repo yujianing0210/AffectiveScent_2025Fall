@@ -1,3 +1,5 @@
+python raw_avro_to_csv.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-18/MARCELLA1118-3YK9V1L15N/raw_data/v6 --files 1-1-MARCELLA1118_1763477290.avro 1-1-MARCELLA1118_1763477367.avro 1-1-MARCELLA1118_1763479182.avro 1-1-MARCELLA1118_1763480988.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/MARCELLA1118 --tz UTC --interactive --tz America/New_York --export-csv
+
 python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-18/MARCELLA1118-3YK9V1L15N/raw_data/v6 --files 1-1-MARCELLA1118_1763477290.avro 1-1-MARCELLA1118_1763477367.avro 1-1-MARCELLA1118_1763479182.avro 1-1-MARCELLA1118_1763480988.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/visualizations/MARCELLA1118 --tz UTC --interactive --tz America/New_York --export-csv
 
 python extract_raw_avro_data.py --input-dir /Users/jianingyu/Downloads/MAS-S63_project/data_1107-1118/2025-11-18/MARCELLA1118-3YK9V1L15N/raw_data/v6 --files 1-1-MARCELLA1118_1763477290.avro --output-dir /Users/jianingyu/Downloads/MAS-S63_project/test --tz UTC --interactive --tz America/New_York --export-csv
